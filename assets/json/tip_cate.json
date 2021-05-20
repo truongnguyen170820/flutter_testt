@@ -1,0 +1,32 @@
+[
+  {
+    "ZNAME": "Khái niệm và quy tắc",
+    "ZTIPTYPE": "18",
+    "Z_PK": "146"
+  },
+  {
+    "ZNAME": "Nghiệp vụ vận tải",
+    "ZTIPTYPE": "18",
+    "Z_PK": "147"
+  },
+  {
+    "ZNAME": "Kỹ thuật lái xe",
+    "ZTIPTYPE": "18",
+    "Z_PK": "148"
+  },
+  {
+    "ZNAME": "Cấu tạo và sửa chữa",
+    "ZTIPTYPE": "18",
+    "Z_PK": "149"
+  },
+  {
+    "ZNAME": "Hệ thống biển báo",
+    "ZTIPTYPE": "18",
+    "Z_PK": "150"
+  },
+  {
+    "ZNAME": "Sa hình",
+    "ZTIPTYPE": "18",
+    "Z_PK": "151"
+  }
+]

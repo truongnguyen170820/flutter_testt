@@ -1,0 +1,92 @@
+[
+  {
+    "ZNAME": "Khái niệm và quy tắc",
+    "ZTIPTYPE": "18",
+    "Z_PK": "146"
+  },
+  {
+    "ZNAME": "Nghiệp vụ vận tải",
+    "ZTIPTYPE": "18",
+    "Z_PK": "147"
+  },
+  {
+    "ZNAME": "Kỹ thuật lái xe",
+    "ZTIPTYPE": "18",
+    "Z_PK": "148"
+  },
+  {
+    "ZNAME": "Cấu tạo và sửa chữa",
+    "ZTIPTYPE": "18",
+    "Z_PK": "149"
+  },
+  {
+    "ZNAME": "Hệ thống biển báo",
+    "ZTIPTYPE": "18",
+    "Z_PK": "150"
+  },
+  {
+    "ZNAME": "Sa hình",
+    "ZTIPTYPE": "18",
+    "Z_PK": "151"
+  },
+  {
+    "ZNAME": "Giới thiệu",
+    "ZTIPTYPE": "19",
+    "Z_PK": "152"
+  },
+  {
+    "ZNAME": "Bài 1: Bài thi xuất phát",
+    "ZTIPTYPE": "19",
+    "Z_PK": "153"
+  },
+  {
+    "ZNAME": "Bài 2: Bài thi dừng xe và nhường đường cho người đi bộ",
+    "ZTIPTYPE": "19",
+    "Z_PK": "154"
+  },
+  {
+    "ZNAME": "Bài 3: Bài thi dừng xe và khởi hành lên dốc",
+    "ZTIPTYPE": "19",
+    "Z_PK": "155"
+  },
+  {
+    "ZNAME": "Bài 4: Bài thi qua vệt bánh xe và đường vuông góc",
+    "ZTIPTYPE": "19",
+    "Z_PK": "156"
+  },
+  {
+    "ZNAME": "Bài 5: Qua ngã tư có tín hiệu đèn giao thông.",
+    "ZTIPTYPE": "19",
+    "Z_PK": "157"
+  },
+  {
+    "ZNAME": "Bài 6: Qua đường vòng quanh co.",
+    "ZTIPTYPE": "19",
+    "Z_PK": "158"
+  },
+  {
+    "ZNAME": "Bài 7: Ghép xe dọc vào nơi đỗ.",
+    "ZTIPTYPE": "19",
+    "Z_PK": "159"
+  },
+  {
+    "ZNAME": "Bài 8: Ghép xe ngang vào nơi đỗ.",
+    "ZTIPTYPE": "19",
+    "Z_PK": "160"
+  },
+  {
+    "ZNAME": "Bài 9: Tạm dừng ở chổ có đường sắt chạy qua.",
+    "ZTIPTYPE": "19",
+    "Z_PK": "161"
+  },
+  {
+    "ZNAME": "Bài 10: Thay đổi số trên đường thẳng.",
+    "ZTIPTYPE": "19",
+    "Z_PK": "162"
+  },
+  {
+    "ZNAME": "Bài 11: Kết thúc của 11 bài thực hành sa hình",
+    "ZTIPTYPE": "19",
+    "Z_PK": "163"
+  }
+]
