@@ -4,6 +4,7 @@ import 'package:flutter_testt/sigin_account.dart';
 import 'package:flutter_testt/tertiary.dart';
 import 'package:flutter_testt/utils/screen/screen_utils.dart';
 import 'package:flutter_testt/view/driver_license_page.dart';
+import 'package:flutter_testt/view/ensign_view.page.dart';
 import 'package:flutter_testt/view/number/list_page.dart';
 import 'package:flutter_testt/view/number/number_page.dart';
 import 'package:flutter_testt/view/shop/shop_page.dart';
@@ -142,7 +143,7 @@ class _MyHomePageState extends State<MyHomePage> {
           RaisedButton(
               child: Text("Soccer"),
               onPressed: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context) => TestPage()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => EnSignPage()));
               })
         ],
       ),

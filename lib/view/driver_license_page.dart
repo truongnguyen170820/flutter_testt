@@ -2,11 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_testt/api/driver_api.dart';
 import 'package:flutter_testt/model/driver_license.dart';
 import 'package:flutter_testt/model/driver_request.dart';
-import 'package:flutter_testt/utils/showMessage.dart';
 
 class DriverLicensePage extends StatefulWidget {
   @override
@@ -18,11 +15,11 @@ class _DriverLicensePageState extends State<DriverLicensePage> {
   List<DriverRequest> listRequeDriver = [];
   bool isClick = false;
 
-
   @override
   void initState() {
     super.initState();
   }
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -69,32 +66,35 @@ class _DriverLicensePageState extends State<DriverLicensePage> {
                                 Icon(Icons.arrow_drop_down_outlined),
                               ],
                             ),
-                            isClick ? SizedBox() :
-                            Container(
+                            isClick
+                                ? SizedBox()
+                                : Container(
                                     height: size.height,
                                     child: FutureBuilder(
                                       builder: (context, snapshot) {
-                                        var showData =
-                                            json.decode(snapshot.data.toString());
+                                        var showData = json
+                                            .decode(snapshot.data.toString());
                                         return ListView.builder(
                                           // itemCount: 6,
                                           physics: BouncingScrollPhysics(),
-                                          itemBuilder:
-                                              (BuildContext context, int index) {
-                                            return
-                                              Row(
+                                          itemBuilder: (BuildContext context,
+                                              int index) {
+                                            return Row(
                                               children: [
                                                 Container(
-                                                  padding: EdgeInsets.all(8),
-                                                  decoration: BoxDecoration(
-                                                    border: Border.all(width: 1, color: Colors.grey)
-                                                  ),
+                                                    padding: EdgeInsets.all(8),
+                                                    decoration: BoxDecoration(
+                                                        border: Border.all(
+                                                            width: 1,
+                                                            color:
+                                                                Colors.grey)),
                                                     width: size.width,
                                                     child: Text(
-                                                      showData[index]['ZCONTENT'] ??
+                                                      showData[index]
+                                                              ['ZCONTENT'] ??
                                                           "",
-                                                      style:
-                                                          TextStyle(fontSize: 15),
+                                                      style: TextStyle(
+                                                          fontSize: 15),
                                                       overflow:
                                                           TextOverflow.clip,
                                                     )),
@@ -108,8 +108,7 @@ class _DriverLicensePageState extends State<DriverLicensePage> {
                                     ),
                                   ),
                           ],
-                        )
-                    );
+                        ));
                   },
                 );
               },
